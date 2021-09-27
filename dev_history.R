@@ -12,5 +12,6 @@ usethis::use_r("doc_my_dataset.R")
 usethis::use_data_raw("my_dataset")
 
 attachment::att_amend_desc()
-devtools::test()
+devtools::check()
 devtools::build()
+head(my_dataset)
